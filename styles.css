@@ -1,0 +1,63 @@
+*{
+    margin: 5px;
+    padding: 0;
+}
+.class1{
+
+    width: 400px;
+    height: 450px;
+
+    position: fixed;
+    background: rgba(57, 54, 80, 0.8);
+    border-radius: 4%;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+    
+}
+.class1 input{
+    margin: 10px;
+
+}
+.class1 label {
+    margin: 10px;
+    font-family: sans-serif;
+
+}
+.classGlowText {
+    text-align: center;
+}
+.classGlowText span {
+    color: rgb(36, 111, 114);
+    letter-spacing: 10px;
+    font-family: fantasy;
+
+    transition: all .3s;
+
+}
+
+.classGlowText span:hover{
+    text-shadow: 0 0 10px #2fffff,
+    0 0 30px #2bffff,
+    0 0 40px #2cffff,
+    0 0 60px #1cffff,
+    0 0 70px #0effff,
+    0 0 80px #00ffff;
+    color: #fff;
+
+}
+body {
+		background: #000 url(./res/image1.png); 
+		color: rgb(127, 224, 179); 
+		background-attachment: fixed; 
+		background-repeat: repeat-x; 
+        background-size: 100%;
+	}
+
+.classToWordWelcome{
+    color: rgb(36, 111, 114);
+    
+    text-align: center;
+}

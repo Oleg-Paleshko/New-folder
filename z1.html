@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Задание</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body bgcolor="green">
+    <form name="formName1" action="">
+        <div class="class1">
+            <span>
+                <div>
+                <h2 class="classGlowText" style="padding: 10px;">
+                    <span>РЕГИСТРАЦИЯ</span>
+                </h2></br>
+                </div>
+                
+                <label>Имя: </label><br/>
+                <input type="text" name = "nameUser" placeholder="Введите имя" id="name" onclick="clearError('errorName')"><br/> 
+                <label id = "errorName" style="color: rgb(248, 31, 31);"></label><br/><br/>
+                
+                <label>Пароль: </label><br/>
+                <input type="password" name = "passwordUser" placeholder="Введите пароль" id="password" onclick="clearError('errorPassword')"><br/>
+                <label id = "errorPassword" style="color: rgb(248, 31, 31);"></label><br/><br/>
+                
+                <label>Подтвердите пароль: </label><br/>
+                <input type="password" name = "checkPasswordUser" placeholder="Подтвердите пароль" id="checkPassword" onclick="clearError('errorCheckPasword')"><br/>
+                <label id = "errorCheckPasword" style="color: rgb(248, 31, 31);"></label><br/>
+
+                <button type="button" id="submitButton" style="margin: 10px;">Зарегистрироваться</button>
+            </span>
+        </div>
+    </form>
+    
+</body>
+<script src="main.js"></script>
+</html>
